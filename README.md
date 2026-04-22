@@ -1,16 +1,20 @@
 # JouleHub
 
-Plataforma web desenvolvida para auxiliar no projeto e prototipagem de hardwares, focando na análise térmica e de potência de reguladores de tensão lineares e chaveados. 
+**Access the live platform:** [https://gabriel-re-pires.github.io/JouleHub/](https://gabriel-re-pires.github.io/JouleHub/)
 
-Permite validar a viabilidade da alimentação, evitando falhas e riscos de deformação em encapsulamentos, como cases de impressão 3D em PLA ou PETG.
+Web platform developed to assist in hardware design and prototyping, focusing on thermal and power analysis of linear and switching voltage regulators.
 
-## Funcionalidades
+It allows you to validate the feasibility of the power supply, preventing failures and risks of deformation in enclosures, such as 3D printed PLA or PETG cases.
 
-* Cálculo de Geração de Calor (Pd) e Temperatura de Junção (Tj).
-* Predefinições de consumo de corrente integradas para diversos microcontroladores comuns no mercado.
-* Alertas de segurança em tempo real para Zonas Térmicas Seguras e Falhas Destrutivas.
+## Features
 
-## Tecnologias Utilizadas
+* Calculation of Heat Generation (Pd) and Junction Temperature (Tj).
+* Built-in current consumption presets for various common microcontrollers on the market.
+* Real-time safety alerts for Safe Thermal Zones and Destructive Failures.
 
-* Next.js (versão 14.2.3).
+## Technologies Used
+
+* Next.js (version 14.2.3).
 * TypeScript.
+
+![Demonstração do JouleHub](img/jhimg.png)
